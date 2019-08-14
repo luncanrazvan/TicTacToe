@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:background="@color/white"
+    android:layout_centerHorizontal="true">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restart Game"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/gridLayout"
+        android:id="@+id/btnReset"
+        android:layout_marginBottom="50dp"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:layout_centerInParent="true"
+        android:id="@+id/gridLayout">
+        <ImageView
+            android:id="@+id/img11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whiteimg"
+            android:background="@drawable/back"
+            android:padding="3dp"
+            />
+        <ImageView
+            android:id="@+id/img12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whiteimg"
+            android:background="@drawable/back"
+            android:padding="3dp"
+            />
+        <ImageView
+            android:id="@+id/img13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whiteimg"
+            android:background="@drawable/back"
+            android:padding="3dp"
+            />
+        <ImageView
+            android:id="@+id/img21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whiteimg"
+            android:background="@drawable/back"
+            android:padding="3dp"
+            />
+        <ImageView
+            android:id="@+id/img22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whiteimg"
+            android:background="@drawable/back"
+            android:padding="3dp"
+            />
+        <ImageView
+            android:id="@+id/img23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whiteimg"
+            android:background="@drawable/back"
+            android:padding="3dp"
+            />
+        <ImageView
+            android:id="@+id/img31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whiteimg"
+            android:background="@drawable/back"
+            android:padding="3dp"
+            />
+        <ImageView
+            android:id="@+id/img32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whiteimg"
+            android:background="@drawable/back"
+            android:padding="3dp"
+            />
+        <ImageView
+            android:id="@+id/img33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whiteimg"
+            android:background="@drawable/back"
+            android:padding="3dp"
+            />
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gridLayout"
+        android:layout_centerInParent="true"
+        android:textSize="30dp"
+        android:id="@+id/agTV"/>
+
+
+</RelativeLayout>
